@@ -17,12 +17,12 @@ pip3 install -r requirements.txt
 ## Download SpectroVision Dataset
 Download the processed image and spectral data used for training neural network models:
 ```bash
-wget -O dataset/spectrovision_dataset.zip https://github.com/Healthcare-Robotics/spectrovision/releases/download/1.0/spectrovision_dataset.zip
+wget -O dataset/spectrovision_dataset.zip https://github.com/Healthcare-Robotics/spectrovision/releases/download/v1.0/spectrovision_dataset.zip
 unzip dataset/spectrovision_dataset.zip -d dataset
 ```
 Download the raw images and spectral measurements:
 ```bash
-wget -O dataset/spectrovision_raw_dataset.zip https://github.com/Healthcare-Robotics/spectrovision/releases/download/1.0/spectrovision_raw_dataset.zip
+wget -O dataset/spectrovision_raw_dataset.zip https://www.dropbox.com/s/mrqmx437m7gykjg/spectrovision_raw_dataset.zip?dl=1
 unzip dataset/spectrovision_raw_dataset.zip -d dataset
 ```
 
