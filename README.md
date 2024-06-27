@@ -22,7 +22,8 @@ unzip dataset/spectrovision_dataset.zip -d dataset
 ```
 Download the raw images and spectral measurements:
 ```bash
-wget -O dataset/spectrovision_raw_dataset.zip https://www.dropbox.com/s/mrqmx437m7gykjg/spectrovision_raw_dataset.zip?dl=1
+pip3 install gdown
+gdown -O dataset/spectrovision_raw_dataset.zip 1_PtHk2KNG_sYyFyT31hchz3R2ZO6tNwr
 unzip dataset/spectrovision_raw_dataset.zip -d dataset
 ```
 
