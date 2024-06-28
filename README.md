@@ -26,6 +26,7 @@ pip3 install gdown
 gdown -O dataset/spectrovision_raw_dataset.zip 1_PtHk2KNG_sYyFyT31hchz3R2ZO6tNwr
 unzip dataset/spectrovision_raw_dataset.zip -d dataset
 ```
+If the above `gdown` command does not work, you can download the dataset directly from Google Drive: https://drive.google.com/file/d/1_PtHk2KNG_sYyFyT31hchz3R2ZO6tNwr/view?usp=sharing
 
 ## Retrain Networks (recompute results from paper)
 Note: These computations will take a long time. Computing leave-one-object-out results for a training set of 104 material objects requires training 104 neural networks.
